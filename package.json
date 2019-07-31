@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "cypress:run": "cypress run",
+        "test:cypress": "npm-run-all --silent --parallel --race test:cypress:serve test:cypress:run"
+    }
+}
